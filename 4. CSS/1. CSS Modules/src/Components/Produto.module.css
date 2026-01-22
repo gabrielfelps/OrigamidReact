@@ -1,0 +1,21 @@
+.titulo {
+  color: #43c;
+}
+
+/* Definir Variáveis em CSS */
+@value cor: red;
+
+.preco {
+  /* Todas as propriedades da classe titulo entrar na classe preco */
+  composes: titulo;
+  font-weight: bold;
+}
+
+.comprar {
+  transform: rotate(90deg) traslateY(-120px);
+}
+
+/* Forma de usar CSS Global */
+:global .container {
+  max-width: 900px;
+}
