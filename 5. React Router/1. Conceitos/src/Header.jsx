@@ -3,11 +3,11 @@ import './Header.css';
 import React from 'react';
 
 const Header = () => {
-  const location = useLocation();
+  /*   const location = useLocation();
 
   React.useEffect(() => {
     console.log('Mudou a rota do website.');
-  }, [location]);
+  }, [location]); */
 
   return (
     <nav>
