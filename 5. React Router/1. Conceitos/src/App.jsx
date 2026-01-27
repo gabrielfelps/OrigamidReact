@@ -16,7 +16,7 @@ function App() {
         <Route path="sobre" element={<Sobre />} />
         <Route path="contato" element={<Contato />} />
         <Route path="login" element={<Login />} />
-        <Route path="produto/:id" element={<Produto />} />
+        <Route path="produto/:id/*" element={<Produto />} />
         <Route path="*" element={<NaoEncontrado />} />
       </Routes>
     </BrowserRouter>
