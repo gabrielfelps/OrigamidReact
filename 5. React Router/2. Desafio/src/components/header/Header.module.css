@@ -1,0 +1,26 @@
+header {
+  margin-block: 40px;
+}
+
+.navLink {
+  font-family: 'Inter', Arial;
+  font-weight: 400;
+  font-size: 20px;
+
+  background-color: #dee2e6;
+
+  padding-inline: 12px;
+  padding-block: 8px;
+  border-radius: 4px;
+
+  transition: background-color 150ms ease-in-out;
+}
+
+.navLink:hover {
+  background-color: #adb5bd;
+}
+
+.flex {
+  display: flex;
+  gap: 16px;
+}

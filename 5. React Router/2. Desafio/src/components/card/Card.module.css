@@ -1,0 +1,11 @@
+.card {
+  cursor: pointer;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 12px;
+}
